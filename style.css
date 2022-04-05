@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding-top: 800px;
+    margin: 0;
+}
+#elmo{
+    width: 500px;
+    margin-top: 60px;
+    padding-top: 100px;
+}
+#Bienvenidos{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    z-index: 9;
+    display: table;
+    background: rgb(131,58,180);
+    background: linear-gradient(152deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+h1{
+        font-family: 'Palette Mosaic', cursive;
+        font-size: 41px;
+    }
+#DE-MI{
+        padding: 51px;
+        font-size: 43;
+    }
+.line{
+        height: 7px;
+        width: 100%;
+        
+        margin: 9px;
+        background-color: rgb(6, 38, 70);
+        }
+p{
+    margin: 25px;
+    max-width: 450;
+    font-size: 21px;
+    line-height: 1.5;
+}
+        
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+}
+.link{
+    float: left;
+    color: rgb(54, 39, 39);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+   font-size: 21px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.link:hover{
+    background-color: lightsalmon;
+}
+
+
+
+.parallak-inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    
+}
+
